@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some Takeaways from Storytelling with Data by Cole Nussbaumer Knaflic</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Playfair+Display:700,400,900,400italic,700italic,900italic|Merriweather:400,300,700,900,300italic,400italic,700italic,900italic|Anonymous+Pro:400,700,400italic,700italic|Roboto:400,700' />
+    <link rel='stylesheet' type='text/css' href='https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css' />
+    <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' />
+
+
+    <style>
+body {
+  margin:50px 10px;
+}
+
+#blog {
+  display: block; 
+  width: auto!important; 
+  overflow: hidden; 
+} 
+
+a, a.named_anchor {
+    text-decoration: inherit;
+    font-style: inherit;
+    color: inherit;
+  }
+  
+
+
+h1 {
+    letter-spacing: -0.06em;
+    margin-bottom: 0.05em;
+    line-height: 1em;
+}
+
+.byline {
+    font: normal normal 400 1.3em;
+    margin-bottom: .8em;
+    letter-spacing: -0.04em;
+  }
+
+.pubdate {
+    font: normal normal 400 1em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+
+.pubtime:before {
+    font-family: 'FontAwesome';
+    font-size: .8em;
+    content:'\f054';
+    margin: 0em .5em;
+}
+
+hr {
+    border: 0;
+    border-bottom: 4px double;
+    height: 0.15em;
+}
+
+
+.topic {
+    font: normal normal 900 .8em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+
+#article {
+  font: normal normal 400 1em/2em;
+  line-height: 2em;
+  text-align: justify;
+}
+
+a, a:link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #1b98e0;
+}  
+
+.shade {
+  background: #eee;
+  padding: 0 0.2em;
+}
+    
+h2, h3, h4, h5 { 
+    font-weight: 650; 
+    font-size: 1.25em; 
+}
+
+
+p { 
+    margin-bottom:2em; 
+    line-height: 2em;
+}
+    
+
+p:first-child:first-letter { 
+      font-weight: 900;
+      float: left; 
+      font-size: 4em; 
+      line-height: 1em; 
+      padding: 0em 0.1em 0em 0em;
+}
+
+.slideSample {
+  width: 70%;
+  margin-bottom: 0em;
+}
+ 
+.smallSize {
+  width: 30%;
+  margin-bottom: 0em;
+}
+
+.midSize {
+  width: 50%;
+  margin-bottom: 0em;
+}
+@media only screen and (max-width: 768px) {
+  .slideSample {
+    width: 80%;
+  }
+  .smallSize {
+  width: 60%;
+  margin-bottom: 0em;
+}
+
+.midSize {
+  width: 80%;
+  margin-bottom: 0em;
+}
+}
+    </style>
+</head>
+<body>
+    
+
+
+    
+<div class="container">
+    <div id="blog">
+      <div id="title">
+        <div class="pubdate">12 March 2021<hr/></div> 
+        <h1>Some Takeaways from Storytelling with Data by Cole Nussbaumer Knaflic</h1>
+        <div class="byline">by Phoebe Yaheng Wu</div>
+        <!-- <div class="topic">Data</div> -->
+      </div>
+      
+    
+      
+      <!-- Article text -->
+      <!-- <a class="named_anchor" name="2549202418499648455"></a> -->
+      <div id="article">
+        <div id="content">
+          <p>When I took the CIS 9655 Data Visualization class at Baruch College, my professor used the popular data visualization book Storytelling with Data as our textbook. Knaflic, the author of the book, worked as People Analytics Manager at Google from 2007 to 2013; she subsequently founded the company storytelling with data and published the corresponding book in 2015. I was inspired by many concepts introduced in this book, and I cannot wait to share some of my key takeaways with you.
+          </p>
+ 
+          <p class="text-center text-muted">(Please note: All the images used in this article are directly screenshotted from the book.)</p>
+    <h5>1. Minimal Borders for Tables</h5>
+    <div class="row justify-content-center"><img class="slideSample" src="https://cdn.glitch.com/bd24c68b-84ae-483b-8d24-38ebded99ed5%2F1.png?v=1615692528237"/></div>
+    <p class="text-center text-muted">Screenshot of Figure 2.4 Table Borders (p.92-93)</p>
+    <p>If you need to use a table, it is best to remove any shading or thick borders from the table, as this distracts the audience from the most important element—the data.</p>
+   <h5>2. Use a Heatmap for Data Table Comparison</h5>
+   <div class="row justify-content-center"><img class="slideSample" src="https://cdn.glitch.com/bd24c68b-84ae-483b-8d24-38ebded99ed5%2F2.png?v=1615692550578"/></div>
+   <p class="text-center text-muted">Screenshot of Figure 2.5 Two views of the same data (p.94-95)</p>
+    <p>When you need to compare data within a table, it is best to use a heatmap. But do not forget to label which color indicates a low value and which color indicates a high value. In the example shown above, it is easy to tell, but sometimes it’s difficult to tell when the color palettes used are not from a lighter to a darker shade.</p>
+
+<h5>3. Always Show a Zero Baseline in a Bar Chart</h5>
+<div class="row justify-content-center"><img class="slideSample" src="https://cdn.glitch.com/bd24c68b-84ae-483b-8d24-38ebded99ed5%2F4.png?v=1615693541800"/></div>
+<p class="text-center text-muted">Screenshot of Figure 2.13 Bar charts must have a zero baseline (p.110-111)</p>
+<p>It can be misleading if the bar chart does not start from zero.</p>
+
+<h5>4. Use Right Width for Each Bar</h5>
+<div class="row justify-content-center"><img class="slideSample" src="https://cdn.glitch.com/bd24c68b-84ae-483b-8d24-38ebded99ed5%2F5.png?v=1615693660853"/></div>
+<p class="text-center text-muted">Screenshot of Figure 2.14 Bar width (p.114-115)</p>
+<p>Each bar should be wider than the space next to it but not too wide.</p>
+
+<h5>5. Do Not Use Secondary Y-axes</h5>
+<div class="row justify-content-center"><img class="slideSample" src="https://cdn.glitch.com/bd24c68b-84ae-483b-8d24-38ebded99ed5%2F6.png?v=1615693786106"/></div>
+<p class="text-center text-muted">Screenshot of Figure 2.26 Secondary y-axis and Figure 2.27 Strategies for avoiding a secondary y-axis (p.138-139)</p>
+<p>Using y-axes on both sides of a graph can be confusing. Instead, you can remove both y-axes and use data labels; or you can use two y-axes: one y-axis is on top of the other one.</p>
+
+<h5>6. Highlight with Different Colors</h5>
+<div class="row justify-content-center"><img class="smallSize" src="https://cdn.glitch.com/bd24c68b-84ae-483b-8d24-38ebded99ed5%2F66.png?v=1615694443762"/></div>
+<p class="text-center text-muted">Screenshot of Figure 2.11 Modified slope graph (p.106-107)</p>
+<p>If you want to highlight a certain element, you can use a different color to draw viewers’ attention. </p>
+
+
+<h5>7. If You Only Have One or Two Numbers, Use Text Directly</h5>
+<div class="row justify-content-center"><img class="smallSize" src="https://cdn.glitch.com/bd24c68b-84ae-483b-8d24-38ebded99ed5%2F11.png?v=1615694513204"/></div>
+<p class="text-center text-muted">Screenshot of Figure 2.3 Stay-at-home moms simple text makeover (p.90-91)</p>
+
+
+<h5>8. Do Not Use a Pie Chart or Donut Chart to Compare</h5>
+<div class="row justify-content-center"><img class="smallSize" src="https://cdn.glitch.com/bd24c68b-84ae-483b-8d24-38ebded99ed5%2F111.png?v=1615694599968"/></div>
+<p class="text-center text-muted">Screenshot of Figure 2.24 Donut chart (p.134-135)</p>
+
+<h5>9. Remove Clutter</h5>
+<div class="row justify-content-center"><img class="slideSample" src="https://cdn.glitch.com/bd24c68b-84ae-483b-8d24-38ebded99ed5%2Fremove.png?v=1615694796292"/></div>
+<p class="text-center text-muted">Screenshot of Figure 3.24 Before-and-after (p.184-185)</p>
+<p>When you are done with your data visualization, go back and see what you can remove from the chart without affecting the meaning you want to convey. In Knaflic’s words, “Remove chart border; Remove gridlines; Remove data markers; Clean up axis labels; Label data directly; Leverage consistent color” (p.176-181). This is all part of removing clutter from your data visualization.</p>
+
+<h5>10. Annotation and Text Are Your Friends</h5>
+<div class="row justify-content-center"><img class="midSize" src="https://cdn.glitch.com/bd24c68b-84ae-483b-8d24-38ebded99ed5%2F234.png?v=1615694912319"/></div>
+<p class="text-center text-muted">Screenshot of Figure 5.10 Add action title and annotation (p.258-259)</p>
+<p>Annotation helps viewers understand additional information needed to better decipher the graph. Additionally, the title text reminds the viewers of the key messages behind the chart.</p>
+
+<h5>11. “Good Data Visualization Tells a Story”</h5>
+<div class="row justify-content-center"><img class="midSize" src="https://cdn.glitch.com/bd24c68b-84ae-483b-8d24-38ebded99ed5%2F668.png?v=1615694993274"/></div>
+<p class="text-center text-muted">Screenshot of Figure 9.31 100% stacked horizontal bar graph (p.402-403)</p>
+<p>The use of different colors, a key message title, and descriptive annotations convey a clear story.</p>
+
+<p class="pb-0 mb-0">As Knaflic suggested at the end of her book, we should seek inspiration from good examples and reflect on what makes those data visualizations effective.
+
+Below are some data visualization websites recommended in the book to help inspire you.</p>
+
+<a href="https://www.storytellingwithdata.com/" target="_blank">https://www.storytellingwithdata.com</a><br>
+<a href="https://www.vizwiz.com/" target="_blank">https://www.vizwiz.com</a><br>
+<a href="https://flowingdata.com/" target="_blank">https://flowingdata.com</a><br/><br/><br/>
+
+
+<p class="text-center">Knaflic, C. N. (2015). Storytelling with data: a data visualization guide for business professionals. Hoboken, New Jersey: John Wiley & Sons, Inc.</p>
+
+
+</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+  
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        
+        <div id="disqus_thread"></div>
+      </div>
+      <!-- Copyright -->
+    
+    </footer>
+    <!-- Footer -->
+    
+    </div>
+
+
+
+    <!-- Scripts --> 
+
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/prettify.js"></script>
+    <!-- Script for pocket button -->
+    <script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+    <!-- Print friendly -->
+    <script>var pfHeaderImgUrl = '';var pfHeaderTagline = '';var pfdisableClickToDel = 0;var pfHideImages = 0;var pfImageDisplayStyle = 'right';var pfDisablePDF = 0;var pfDisableEmail = 0;var pfDisablePrint = 0;var pfCustomCSS = '';var pfBtVersion='1';(function(){var js, pf;pf = document.createElement('script');pf.type = 'text/javascript';if ('https:' === document.location.protocol){js='https://pf-cdn.printfriendly.com/ssl/main.js'}else{js='http://cdn.printfriendly.com/printfriendly.js'}pf.src=js;document.getElementsByTagName('head')[0].appendChild(pf)})();</script>
+    <!-- Share button / http://sharebutton.co
+    <script src="https://cdn.rawgit.com/carrot/share-button/master/src/share-button.js"></script>-->
+
+
+    <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://wuyaheng.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</body>
+</html>
+
+
